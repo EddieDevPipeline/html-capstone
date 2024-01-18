@@ -3,7 +3,320 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Twenty Twenty-Two</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #f0f0f0;
+        padding: 20px;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 36px;
+        margin: 0;
+      }
+
+      hr {
+        border: none;
+        border-top: 1px solid #ddd;
+        margin: 20px 0;
+      }
+
+      main {
+        padding: 20px;
+      }
+
+      p {
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        font-size: 24px;
+        margin: 20px 0;
+      }
+
+      ul,
+      ol {
+        margin: 0;
+        padding: 0 0 0 40px;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+
+      caption {
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      blockquote {
+        background-color: #f9f9f9;
+        border-left: 4px solid #ddd;
+        margin: 20px 0;
+        padding: 10px 20px;
+      }
+
+      sup {
+        font-size: 0.8px;
+        vertical-align: super;
+      }
+
+      sub {
+        font-size: 0.8px;
+        vertical-align: sub;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div>
+      <header>
+        <h1>Elements</h1>
+        <hr />
+      </header>
+    </div>
+    <div>
+      <main>
+        <p>
+          The purpose of HTML is to help determine what default settings are
+          with CSS
+          <br />
+          and to make sure that all possible HTML Elements are included in this
+          HTML so as
+          <br />to not miss any possible Elements when designing a site.
+        </p>
+        <hr />
+        <div>
+          <h2>Heading 1</h2>
+          <h2>Heading 2</h2>
+          <h2>Heading 3</h2>
+          <h2>Heading 4</h2>
+          <h2>Heading 5</h2>
+          <h2>Heading 6</h2>
+          <hr />
+          <h2>Paragraph</h2>
+          <p>
+            Lorem ipsum dolor sit amet,
+            <a href="#">consectetur adipiscing </a>elit. Nullam aliquam, nisl
+            eget
+            <br />
+            aliquam iaculis, nunc diam aliquam urna, vitae aliquam nunc quam
+            vitae nisl. Sed
+            <br />
+            aliquam, nisl eget aliquam iaculis, nunc diam aliquam urna, vitae
+            aliquam nunc quam
+            <br />
+            vitae nisl. Sed aliquam, nisl eget aliquam iaculis, nunc diam
+            aliquam urna, vitae
+            <br />
+            aliquam nunc quam vitae nisl. Sed aliquam, nisl eget aliquam
+            iaculis, nunc diam
+            <br />
+            aliquam urna, vitae aliquam nunc quam vitae nisl. Sed aliquam, nisl
+            eget aliquam
+            <br />
+            iaculis, nunc diam aliquam urna, vitae aliquam nunc quam vitae nisl.
+            Sed aliquam,
+            <br />
+            nisl eget aliquam iaculis, nunc diam aliquam urna, vitae aliquam
+            nunc quam vitae
+            <br />
+            nisl. Sed aliquam, nisl eget aliquam iaculis, nunc diam aliquam
+            urna, vitae aliquam
+            <br />
+            nunc quam vitae nisl. Sed aliquam, nisl eget aliquam iaculis, nunc
+            diam aliquam
+            <br />
+            urna, vitae aliquam nunc quam vitae nisl. Sed aliquam, nisl eget
+            aliquam iaculis,
+            <br />
+            nunc diam aliquam urna, vitae aliquam nunc quam vitae nisl. Sed
+            aliquam, nisl eget
+            <br />
+            aliquam iaculis, nunc diam aliquam urna, vitae aliquam nunc quam
+            vitae nisl. Sed
+            <br />
+            aliquam, nisl eget aliquam iaculis, nunc diam aliquam urna, vitae
+            aliquam nunc quam
+            <br />
+            vitae nisl. Sed aliquam, nisl eget aliquam iaculis, nunc diam
+            aliquam urna, vitae
+            <br />
+            aliquam
+          </p>
+          <hr />
+          <h2>List Types</h2>
+          <h2>Definition List</h2>
+          <dl>
+            <dt>Definition List Title</dt>
+            <dd>This is a definition list division.</dd>
+          </dl>
+          <h2>Ordered List</h2>
+          <ol>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+          </ol>
+          <h2>Unordered List</h2>
+          <ul>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+          </ul>
+          <hr />
+          <div>
+            <h2>Forms</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              <br />
+              Quod, a repudiandae cum aut fugit voluptas? Recusandae asperiores
+              iusto repellat assumenda.
+              <br />
+              Voluptatibus deleniti inventore nisi sint est eius, nulla quisquam
+              enim.
+            </p>
+            <form>
+              <fieldset>
+                <legend>Legend</legend>
+                <label for="text">Text Input:</label>
+                <input type="text" id="text" />
+                <br />
+                <label for="password">Password:</label>
+                <input type="password" id="password" />
+                <br />
+                <label for="textarea">Text Area:</label>
+                <textarea id="textarea"></textarea>
+                <br />
+                <label for="radio">Radio Button:</label>
+                <input type="radio" id="radio" />
+                <br />
+                <label for="checkbox">Checkbox:</label>
+                <input type="checkbox" id="checkbox" />
+                <br />
+                <label for="select">Select:</label>
+                <select id="select">
+                  <optgroup label="Option Group">
+                    <option>Option One</option>
+                    <option>Option Two</option>
+                    <option>Option Three</option>
+                  </optgroup>
+                </select>
+                <br />
+                <label for="file">File Input:</label>
+                <input type="file" id="file" />
+                <br />
+                <label for="submit">Submit Button:</label>
+                <input type="submit" id="submit" />
+                <br />
+              </fieldset>
+            </form>
+            <hr />
+            <div>
+            <h2>Table</h2>
+            <table>
+              <caption>Table</caption>
+              <thead>
+                <tr>
+                  <th>Table Heading 1</th>
+                  <th>Table Heading 2</th>
+                  <th>Table Heading 3</th>
+                  <th>Table Heading 4</th>
+                  <th>Table Heading 5</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Table Cell 1</td>
+                  <td>Table Cell 2</td>
+                  <td>Table Cell 3</td>
+                  <td>Table Cell 4</td>
+                  <td>Table Cell 5</td>
+                </tr>
+                <tr>
+                  <td>Table Cell 1</td>
+                  <td>Table Cell 2</td>
+                  <td>Table Cell 3</td>
+                  <td>Table Cell 4</td>
+                  <td>Table Cell 5</td>
+                </tr>
+                <tr>
+                  <td>Table Cell 1</td>
+                  <td>Table Cell 2</td>
+                  <td>Table Cell 3</td>
+                  <td>Table Cell 4</td>
+                  <td>Table Cell 5</td>
+                </tr>
+                <tr>
+                  <td>Table Cell 1</td>
+                  <td>Table Cell 2</td>
+                  <td>Table Cell 3</td>
+                  <td>Table Cell 4</td>
+                  <td>Table Cell 5</td>
+                </tr>
+                <tr>
+                  <td>Table Cell 1</td>
+                  <td>Table Cell 2</td>
+                  <td>Table Cell 3</td>
+                  <td>Table Cell 4</td>
+                  <td>Table Cell 5</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td>Table Footer 1</td>
+                  <td>Table Footer 2</td>
+                  <td>Table Footer 3</td>
+                  <td>Table Footer 4</td>
+                  <td>Table Footer 5</td>
+                </tr>
+              </tfoot>
+            </div>
+            </table>
+          <hr />
+          <div>
+            <h2>Misc Stuff - abbr, acronym, pre, code, sub, sup, etc.</h2>
+            <p>
+                Lorem ipsum dolor <sup>sit amet consectetur </sup><sub>adipisicing elit.</sub> Quod, a
+              repudiandae cum aut fugit voluptas? Recusandae asperiores iusto
+              repellat assumenda. Voluptatibus deleniti inventore nisi sint est
+              eius, nulla quisquam enim.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, a
+              repudiandae cum aut fugit voluptas? Recusandae asperiores iusto
+              repellat assumenda. Voluptatibus deleniti inventore nisi sint est
+              eius, nulla quisquam enim.
+            </p>
+            <p>
+              <blockquote>
+                "This stylesheet is going to help so freaking much."
+              </blockquote>-Blockquote
+            </p>
+            </div>
+        </div>
+      </main>
+    </div>
+    <div>
+      <footer><i>September 5, 2008</i> Theme Admin Uncategorized</footer>
+    </div>
+  </body>
 </html>
