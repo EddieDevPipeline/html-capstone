@@ -4,134 +4,95 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Twenty Twenty-Two</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        margin: 0;
-        padding: 0;
-      }
-
-      header {
-        background-color: #000000;
-        background-image: url("../assets/flight-path-on-transparent-d.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding: 70px;
-        text-align: center;
-      }
-
-      h1 {
-        font-size: 36px;
-        margin: 0;
-      }
-
-      main {
-        padding: 20px;
-      }
-
-      p {
-        margin-bottom: 20px;
-      }
-
-      h2 {
-        font-size: 24px;
-        margin: 20px 0;
-      }
-
-      ul {
-        list-style-type: none;
-        display: flex;
-        justify-content: space-between;
-        padding: 50;
-      }
-
-      li {
-        margin-right: 20px;
-      }
-
-      li {
-        margin-bottom: 10px;
-      }
-    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="./index.html">Twenty Twenty-Two</a></li>
-          <li><a href="./pages/about.html">About</a></li>
-          <li><a href="./pages/parent-page.html">Parent Page</a></li>
-        </ul>
-      </nav>
+    <header class="bg-black text-white">
+      <div class="text-x1 font-bold">
+        <nav class="flex justify-between items-center p-8">
+          <ul class="flex space-x-4">
+            <li><a href="./index.html">Twenty Twenty-Two</a></li>
+            <li><a href="./pages/about.html">About</a></li>
+            <li><a href="./pages/parent-page.html">Parent Page</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <main>
-      <div>
-        <h1>Worth A Thousand Words</h1>
-        <p>Boat.</p>
-      </div>
-      <div>
-        <h1><a href="./pages/elements.html">Elements</a></h1>
-        <p>
-          The purpose of HTML is to help determine what default settings are
-          with CSS
-          <br />
-          and to make sure that all possible HTML Elements are included in this
-          HTML so
-          <br />
-          as to not miss any possible Elements when designing a site. Heading 1
-          <br />
-          Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Paragraph
-        </p>
-      </div>
-      <div>
-        <h1>More Tags</h1>
-        <p>More of these posts need tags.</p>
-      </div>
-      <div>
-        <h1>HTML</h1>
-        <p>
-          What HTML tags would you like to see? Let’s start with an unordered
-          <br />
-          list: One Two Three Four And then move on to a more interesting
-          <br />
-          ordered list: one, two buckle my shoe three, four knock at the door
-          <br />
-          Five, six pick up sticks Seven, eight, lay them straight Nine, ten, a
-          <br />
-          big fat hen…
-        </p>
-      </div>
-      <div>
-        <h1>Links</h1>
-        <p>
-          A few well known Wordpress links: Wordpress.org, the Codex and the
-          download page.
-        </p>
-      </div>
-      <div>
-        <h1>Category Heirarchy</h1>
-        <p>
-          This post has 4 categories, part of a hierarchy that is 3 deep. Lorem
-          <br />
-          ipsum dolor sit amet, consectetuer adipiscing elit. Fusce euismod
-          <br />
-          commodo ante. Suspendisse potenti. Nunc pellentesque quam vel pede. Ut
-          <br />
-          a lorem non urna molestie euismod. Fusce consequat tortor eu urna.
-          <br />
-          Pellentesque aliquam, pede eget tincidunt feugiat, nunc massa
-          <br />
-          hendrerit magna, non…
-        </p>
-      </div>
-      <div>
-        <h1>Hello World</h1>
-        <p>
-          Welcome to WordPress. This is your first post. Edit or delete it, then
-          start blogging!
-        </p>
-      </div>
+    <main class="px-20">
+      <section class="mb-20">
+        <div>
+          <h1 class="text-5xl font-bold mb-4">Worth A Thousand Words</h1>
+          <p>Boat.</p>
+        </div>
+        <div>
+          <h1 class="text-5xl font-bold mb-4">
+            <a href="./pages/elements.html">Elements</a>
+          </h1>
+          <p>
+            The purpose of HTML is to help determine what default settings are
+            with CSS
+            <br />
+            and to make sure that all possible HTML Elements are included in
+            this HTML so
+            <br />
+            as to not miss any possible Elements when designing a site. Heading
+            1
+            <br />
+            Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Paragraph
+          </p>
+        </div>
+        <div>
+          <h1>More Tags</h1>
+          <p>More of these posts need tags.</p>
+        </div>
+        <div>
+          <h1>HTML</h1>
+          <p>
+            What HTML tags would you like to see? Let’s start with an unordered
+            <br />
+            list: One Two Three Four And then move on to a more interesting
+            <br />
+            ordered list: one, two buckle my shoe three, four knock at the door
+            <br />
+            Five, six pick up sticks Seven, eight, lay them straight Nine, ten,
+            a
+            <br />
+            big fat hen…
+          </p>
+        </div>
+        <div>
+          <h1>Links</h1>
+          <p>
+            A few well known Wordpress links: Wordpress.org, the Codex and the
+            download page.
+          </p>
+        </div>
+        <div>
+          <h1>Category Heirarchy</h1>
+          <p>
+            This post has 4 categories, part of a hierarchy that is 3 deep.
+            Lorem
+            <br />
+            ipsum dolor sit amet, consectetuer adipiscing elit. Fusce euismod
+            <br />
+            commodo ante. Suspendisse potenti. Nunc pellentesque quam vel pede.
+            Ut
+            <br />
+            a lorem non urna molestie euismod. Fusce consequat tortor eu urna.
+            <br />
+            Pellentesque aliquam, pede eget tincidunt feugiat, nunc massa
+            <br />
+            hendrerit magna, non…
+          </p>
+        </div>
+        <div>
+          <h1>Hello World</h1>
+          <p>
+            Welcome to WordPress. This is your first post. Edit or delete it,
+            then start blogging!
+          </p>
+        </div>
+      </section>
     </main>
   </body>
 </html>
