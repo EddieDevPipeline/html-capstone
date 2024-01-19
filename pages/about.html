@@ -4,6 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About</title>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body></body>
+  <body class="bg-white text-gray-700">
+    <header class="container mx-auto px-4 py-6">
+      <nav class="flex justify-between items-center">
+        <div class="text-lg font-semibold">Twenty Twenty-Two</div>
+        <div class="space-x-4">
+          <a href="./about.html" class="text-gray-700 hover:text-gray-900"
+            >About</a
+          >
+          <a href="./parent-page.html" class="text-gray-700 hover:text-gray-900"
+            >Parent Page</a
+          >
+        </div>
+      </nav>
+    </header>
+
+    <main class="container mx-auto px-4">
+      <h1 class="text-4xl font-semibold mb-6 mt-12">About</h1>
+      <hr class="border-t-2 border-gray-300 mb-6" />
+      <section class="mb-12">
+        <h2 class="text-2xl font-semibold mb-4">
+          Wordpress Theme Development Resources
+        </h2>
+        <p class="mb-6">
+          This site is using the standard Wordpress Theme Unit Test Data for
+          content. The theme Unit Test is a series of posts and pages that match
+          up with a checklist on the Wordpress codex. You can use the data and
+          checklist together to test.
+        </p>
+      </section>
+    </main>
+  </body>
 </html>
